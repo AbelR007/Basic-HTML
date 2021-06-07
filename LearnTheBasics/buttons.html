@@ -5,9 +5,30 @@
     <title> Buttons </title>
   </head>
   <body>
+    <h1> Buttons in HTML </h1>
+    <p> Buttons are necessary equipment for cool sites ;) Is yours have one ?</p>
+    <p> Check out how to add one at here or Below (if you are reading the source code lol)</p>
     <button onclick="document.location='https://github.com/AbelR007/'"> AbelR007's Profile </button> <br>
     <br> <!-- BR is used to show some space between the buttons :)-->
-    <button type="round" name="Repo's Profile"> Home </button>
+    <button type="round" name="Repo's Profile"> Fake button : Home </button>
+    <button type="round" name="Repo's Profile" onclick="document.location='https://github.com/AbelR007/Basic-HTML'" title="This even has a title lol"> Home </button>
+    <h3> Using CSS to style Buttons </h3>
+    <p> This time I am showing inline CSS, but external css is better.</p>
+    <style>
+      a:link, a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover, a:active {
+        background-color: red;
+      }
+    </style>
+    <a href="https://github.com/AbelR007/Basic-HTML">Click ME</a>
+    <p> Doesn't a CSS button look cooler ? Yes, It Does!</p>
   </body>
 </html>
 
