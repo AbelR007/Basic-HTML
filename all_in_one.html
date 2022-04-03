@@ -3,10 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title> All Basic Numbered Topics in ONE </title>
+    <title> ALL in ONE </title>
 </head>
 
 <body>
+    <h1> ALL in ONE </h1>
+    <h2> All Basic Numbered Topics in ONE </h2>
+
     <h3> 03 - Lists in HTML </h3>
     <h4>Unordered List</h4>
     <ul>
@@ -62,11 +65,11 @@
     <hr>
 
     <h3> 07 - Image Addition </h3>
-    <p><img src="/images/python.png" alt="Python Image"></p>
+    <p><img src="/files/image_file.png" alt="Python Image"></p>
     <hr>
 
     <h3> 08 - Images Resizing </h3>
-    <img src="/images/python.png" width="200" height="200" alt="Python Image">
+    <img src="/files/image_file.png" width="200" height="200" alt="Python Image">
     <hr>
 
     <h3> 09 - Nested Elements </h3>
@@ -104,16 +107,121 @@
         No:
         <input type="radio" name="yesorno" value="">
     </form>
-<hr>
+    <hr>
 
-<h3> 14 - Checkbox </h3>
-<form action="" method="">
-    Which subjects are you interested in? <br>
-    <input type="checkbox" name="" checked="checked"> Football  <br>
-    <input type="checkbox" name=""> Basketball <br>
-    <input type="checkbox" name=""> Chess <br>
-</form>
+    <h3> 14 - Checkbox </h3>
+    <form action="" method="">
+        Which subjects are you interested in? <br>
+        <input type="checkbox" name="" checked="checked"> Football <br>
+        <input type="checkbox" name=""> Basketball <br>
+        <input type="checkbox" name=""> Chess <br>
+    </form>
+    <hr>
 
+    <h3> 15 - Number Input </h3>
+    <form action="">
+        <input type="number" min="0" max="50">
+    </form>
+    <hr>
+
+    <h3> 16 - Drop Down List </h3>
+    <form action="" method="">
+        <select>
+            <option value="Delhi">Delhi</option>
+            <option value="Agra">Agra</option>
+            <option value="Nagpur">Nagpur</option>
+        </select>
+    </form>
+    <hr>
+
+    <h3> 17 - Date and Number Box </h3>
+    <form>
+        Enter travel details :
+        <input type="date" name="day"> <br>
+        Number of days : <input type="number" name="numdays" min="1" max="10">
+    </form>
+    <hr>
+
+    <h3> 18 - Fieldbox and Legend Elements </h3>
+    <form>
+        <fieldset>
+            <legend> Details </legend>
+            Enter date : <input type="date">
+        </fieldset>
+    </form>
+    <hr>
+
+    <h3> 19 - Attributes </h3>
+    <p class="test"> In this tag, <code>class </code> is the attribute </p>
+    <hr>
+
+    <h3> 20 - META tags </h3>
+    <code>
+        &lt;meta name="description" content="This is a webpage about html"> <br>
+        &lt;meta name="keywords" content="programming, developing, coding"> <br>
+        &lt;meta http-equiv="author" content="Abel Roy"> <br>
+        &lt;meta http-equiv="content-language" content="en-us"> <br>
+    </code>
+    <hr>
+
+    <h3> 21 - Escape Characters </h3>
+    <p>
+        Space - &nbsp; <br>
+        Trademark symbol - &#8482; <br>
+        Ampersand - &amp; <br>
+        Copyright - &copy; <br>
+        Angular opening bracket - &lt; <br>
+        Angular closing bracket - &gt; <br>
+        Question Mark - &#63; <br>
+        and there are more escape characters...
+    </p>
+    <hr>
+
+    <h3> 22 - Bold, Italics & Strong, EM </h3>
+    <p>
+        <b> Bold </b> <br>
+        <strong> Strong </strong> <br>
+        <i> Italics </i> <br>
+        <em> EM </em> <br>
+    </p>
+    <hr>
+
+    <h3> 23 - iFrame Elements </h3>
+    <iframe frameborders = "1" src="html/first.html" width="200" height="200" name="ouriframe" id="ouriframe">
+        Do you see this?
+    </iframe> <br>
+    <a href="html/second.html" target="ouriframe"> Switch to Second </a>
+    <hr>
+
+    <h3> 24 - Sub & Sup </h3>
+    <p>
+        H<sub>2</sub>0 is one of the most important resources. <br>
+        Tommorow is 1<sup>st</sup> April. <br>
+    </p>
+    <hr>
+
+    <h3> 25 - Title and Alt Attributes </h3>
+    <img src="files/image_file.png" title="Python language" alt="Python">
+    <hr>
+
+    <h3> 26 - Audio Elements 1 </h3>
+    Standard formats : .mp3 .wav .ogg <br>
+    <audio controls="audiocontrols">
+        <source src="files/audio_file.wav"/>
+    </audio>
+    <hr>
+
+    <h3> 27 - Audio Elements 2 </h3>
+    <audio controls autoplay loop draggable="true">
+        <source src="files/audio_file.wav">
+    </audio>
+    <hr>
+
+    <h3> 28 - Video Elements </h3>
+    Standard formats : .mp4 .webm .ogg <br>
+    <video width="640" height="360" controls>
+        <source src="files/video_file.mp4">
+    </video>
 
 </body>
 
