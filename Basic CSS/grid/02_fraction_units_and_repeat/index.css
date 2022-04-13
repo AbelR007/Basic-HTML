@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+
+    /* Grid Template Rows & Columns [Fractional units] */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px 50px;
+    /* 1fr divides the grid into fractional units */
+    /* 1fr 2fr 1fr divides the grid into the ratio of 1:2:1 making it responsive*/
+
+    /*
+        We can also use repeat() for eg, repeat(3, 1fr)
+        which means,
+            repeat(3, 1fr) = 1fr 1fr 1fr;
+        also,
+            repeat(2, 50px) = 50px 50px;
+    */
+
+
+    /*
+    We can also summarize the template columns and rows in one by saying,
+        grid-template: repeat(2,50px) / repeat(3, 1fr);
+    where rows first and columns last
+     */
+
+    /* Pictorial representation in mind
+    Imagine drawing a "L" starting from rows to the columns.
+    */
+    grid-gap: 3px;
+}

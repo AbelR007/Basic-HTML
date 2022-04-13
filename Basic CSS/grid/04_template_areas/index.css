@@ -1,0 +1,36 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+
+    /* Reasons why we use Grid Area */
+    /* - Easy to change layout whenever needed */
+    /* - Responsive Grid */
+    grid-template-areas:
+        ". h h h h h h h h h h ."
+        "m c c c c c c c c c c c"
+        ". f f f f f f f f f f .";
+    /* . represents blank cell */
+    /* must use rectangles layout */
+}
+
+.header {
+    /* grid-column: 1/-1; */
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content {
+    /* grid-column: 2/-1; */
+    grid-area: c;
+}
+
+.footer {
+    /* grid-column: 1/-1; */
+    grid-area: f;
+}

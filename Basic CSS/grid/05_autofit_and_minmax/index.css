@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* autofit helps auto fit grids into one row */
+    /* minmax always allow autofit to completely fit and doesnt show white spaces */
+    grid-template-rows: repeat(2, 100px);
+}
