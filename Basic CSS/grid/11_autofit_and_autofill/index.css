@@ -1,0 +1,18 @@
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* Works similiar to autofill but the
+    Difference is that autofit auto increases size of elements/items */
+    grid-template-rows: 100px 100px;
+}
+
+.container2 {
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* Difference is that autofill auto adds empty cells which again follow minmax and the elements keeps on increasing and decreasing as we increase the size of window */
+    grid-template-rows: 100px 100px;
+}
