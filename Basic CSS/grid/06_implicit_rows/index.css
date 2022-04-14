@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* grid-template-rows: 100px 100px; */
+    /* Implicit rows are defined rows where we defined css for 2 rows but there are 6 rows */
+    grid-auto-rows: 100px;
+}

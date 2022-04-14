@@ -1,0 +1,28 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
+    grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end];
+}
+
+.header {
+    /* grid-column: main-start / main-end;  OR*/
+    grid-column: main;
+}
+
+.menu {}
+
+.content {
+    grid-area: content;
+    /*OR grid-column: content; */
+    /*OR grid-column: content-start / content-end; */
+}
+
+.footer {
+    grid-column: main;
+    /*OR grid-column: main-start / main-end; */
+    /*
+    Grid Area cant be used for footer or header because content is blocked inside a small box [area] but header/fo.oter requires only columns and not the rows.
+    */
+}

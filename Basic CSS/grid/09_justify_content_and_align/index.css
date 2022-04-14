@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    height: 100%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    /* Aligns via row axis */
+    /*
+    space between the content items
+        justify-content: space-between;
+    space evenly between all
+        justify-content: space-evenly;
+    full space between the content items and half space between end items
+        justify-content: space-around;
+    */
+    justify-content: center;
+
+    /* Aligns via column axis */
+    align-content: center;
+}
