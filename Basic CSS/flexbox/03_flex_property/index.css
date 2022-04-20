@@ -1,0 +1,24 @@
+/* CSS for Main Changes */
+/* -------------------- */
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+.container > div{
+  /* Creates a responsive sizing Nav bar */
+  flex: 1;
+  /*
+  It's better than
+  width:33.33%;
+  because once u define the width and if u add a new block/div into it,
+  you have to change the width again to adjust the responsiveness.
+  */
+  /* FLexbox Style Items :
+  flex-grow, flex-shrink, flex-basis */
+}
+
+.container > .search{
+  /* Creates twice the width of the normal width of Flexbox */
+  flex: 2;
+}
