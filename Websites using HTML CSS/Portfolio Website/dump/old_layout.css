@@ -1,0 +1,13 @@
+nav {
+    background-color: var(--pri-bg-color);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    color: var(--pri-color);
+    text-decoration: none;
+}

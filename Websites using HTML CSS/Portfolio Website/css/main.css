@@ -1,23 +1,33 @@
+/* ? Hi */
+
+/* ROOT */
+
 
 :root{
-  --ff-pri-family: JetBrains Mono, monospace;
-  --ff-sec-family: Google Noto Sans, sans-serif;
+  /* color-scheme: dark; */
+  --ff-family: 'Poppins', sans-serif;
+  --ff-family2: 'JetBrains Mono', monospace;
+
+  --bg: rgba(0,214,170,.85);
+  --main_bg: #222;
   
-  --pri-color: #fff;
-  --sec-color: #000;
+  --clr: #fff;
+  --clr2: #000;
   --pri-bg-color: #000;
   --sec-bg-color: #fff;
 }
 
-nav {
-  background-color: var(--pri-bg-color);
+/* GENERAL */
+/* *,*::after,*::before {
+  background-color: var(--bg);
+  color: var(--clr);
+  font-family: var(--ff-family);
+  box-sizing: border-box;
 }
-nav ul{
-  display: flex;
-  justify-content: space-around;
-}
-nav ul a{
-  
-  color: var(--pri-color);
-  text-decoration: none;
-}
+.subtext{
+  font-family: var(--ff-family2);
+} */
+
+/* SPECFIC */
+
+/* Navigation Styling */
