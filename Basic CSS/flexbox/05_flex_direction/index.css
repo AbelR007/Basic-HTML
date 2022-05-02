@@ -1,0 +1,17 @@
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+
+  /* Direction of the elements to be placed */
+  flex-direction: column;
+
+  /* It has no effect because height of the content is set explicitly. It is as tall as the content as be. */
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  /* It allows justify content to take effect */
+  height: 100%;
+
+
+}

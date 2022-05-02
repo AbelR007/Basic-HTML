@@ -1,0 +1,21 @@
+
+.container {
+  border: 2px solid #ffcc5c;
+  display: flex;
+}
+
+.home {
+  /* flex : 1; */
+  /* The above indirectly sets flex grow shrink and basis as 1 1 0 respectively */
+
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
+
+.logout {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
+
